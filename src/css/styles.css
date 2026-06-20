@@ -141,3 +141,39 @@ body {
     grid-template-columns: repeat(3, 1fr);
   }
 }
+
+.load-more {
+  display: block;
+  min-width: 125px;
+  height: 40px;
+  margin: 32px auto 24px;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  background-color: #4e75ff;
+  cursor: pointer;
+  transition: background-color 250ms ease-in-out;
+}
+
+.load-more:hover,
+.load-more:focus {
+  background-color: #6c8cff;
+}
+
+.loader {
+  display: none;
+  margin: 0 auto 32px;
+}
+
+.loader.is-active {
+  display: block;
+}
+
+.is-hidden {
+  display: none;
+}
